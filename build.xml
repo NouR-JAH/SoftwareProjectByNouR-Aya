@@ -1,16 +1,8 @@
-<project default="compile">
-	<property name="src.java.dir" location="./src/Aya_NouR">
-		</property>
-		<property name="result.dir" location="./target"/>
-	</property>
-	<property name="result.javaclasses.dir" location="${result.dir}/classes"/>
-	</property>
+<project>
 
-	<target name="compile">
-			<mkdir dir="${result.javaclasses.dir}"/>
-			<javac srcdir="${src.java.dir}" destdir="${result.javaclasses.dir}" debug="true" includeantruntime="false">
-			</javac>
-	</target>
-	
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+
 </project>
-
