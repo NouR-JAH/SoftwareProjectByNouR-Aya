@@ -1,6 +1,8 @@
 <project default="compile">
 	<property name="src.java.dir" location="./src/Aya_NouR">
+		</property>
 		<property name="result.dir" location="./target"/>
+	</property>
 	<property name="result.javaclasses.dir" location="${result.dir}/classes"/>
 
 <target name="compile">
